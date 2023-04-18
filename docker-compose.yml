@@ -11,6 +11,4 @@ services:
     volumes:
       - /path/to/appdata/config:/config
       - /path/to/appdata/gallery:/gallery
-    ports:
-      - 80:80
     restart: unless-stopped
